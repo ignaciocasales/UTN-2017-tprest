@@ -8,19 +8,24 @@ import com.utn.tprest.domain.Manufacturer;
  * <p>
  * CarWrapper.
  */
-@SuppressWarnings("unused")
+@SuppressWarnings({"unused", "FieldCanBeLocal"})
 public class CarWrapper {
 
     @JsonProperty
     private long id;
+
     @JsonProperty
     private String model;
+
     @JsonProperty
     private String km;
+
     @JsonProperty
     private String plate;
+
     @JsonProperty
     private String year;
+
     @JsonProperty
     private Manufacturer manufacturer;
 

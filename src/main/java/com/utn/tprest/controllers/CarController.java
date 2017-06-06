@@ -35,7 +35,6 @@ public class CarController {
     @RequestMapping(value = "/cars", method = RequestMethod.GET)
     public @ResponseBody
     ResponseEntity<List<CarWrapper>> all() {
-
         Iterable<Car> carsIterable = carRepository.findAll();
 
         List<Car> carsList = Lists.newArrayList(carsIterable);
