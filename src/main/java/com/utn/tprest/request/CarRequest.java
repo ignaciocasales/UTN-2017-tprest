@@ -12,12 +12,16 @@ public class CarRequest {
 
     @JsonProperty
     private String model;
+
     @JsonProperty
     private String km;
+
     @JsonProperty
     private String plate;
+
     @JsonProperty
     private String year;
+
     @JsonProperty
     private Manufacturer manufacturer;
 

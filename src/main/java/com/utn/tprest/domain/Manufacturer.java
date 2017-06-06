@@ -15,6 +15,7 @@ public class Manufacturer {
     @Id
     @GeneratedValue
     private Integer id;
+
     @Column(unique = true)
     private String description;
 
